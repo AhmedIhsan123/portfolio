@@ -32,6 +32,22 @@
             color: white;
             text-transform: none;
         }
+
+        /* Classes */
+        .header-sub-container {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+        .right-text {
+            text-align: right;
+        }
+        .date-split {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
         
         /* Header Section */
         #full-name-text {
@@ -49,19 +65,17 @@
             height: min-content;
         }
         header section {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
             width: 100%;
         }
-        .header-sub-container {
+
+        /* Education Section */
+        #coursework-container {
             display: flex;
-            flex-direction: column;
-            gap: 0.25rem;
+            flex-direction: row;
+            justify-content: space-evenly;
         }
-        .right-text {
-            text-align: right;
-        }
+
+
     </style>
 
 </head>
@@ -69,7 +83,7 @@
     <main>
         <header>
             <h1 id="full-name-text">Ahmed Ihsan</h1>
-            <section>
+            <section class="date-split">
                 <div class="header-sub-container">
                     <p>Ihsan.Ahmed@student.greenriver.edu</p>
                     <p>(206)537-5152</p>
@@ -85,6 +99,29 @@
             <h2>Summary</h2>
             <p>I am aspiring software developer at Green River College with a strong interest in engineering, software development, and leadership. Experienced in team-based projects, video game development, graphic design, and project coordination.</p>
         </secton>
+        <section id="education-container">
+            <h2>Education</h2>
+            <div class="date-split">
+                <p><strong>Green River College</strong> - Auburn, WA</p>
+                <p>Sept. 2025 to Present</p>
+            </div>
+            <p>Bachelors, Information Technology-Software Development (3.8 GPA)</p>
+            <p>Relevent Coursework:</p>
+
+            <div id="coursework-container">
+                <ul>
+                    <li>Object-Oriented Programming</li>
+                    <li>Data Structures</li>
+                    <li>Systems Programming (bitwise operations, exceptions, threads, networking)</li>
+                </ul>
+                <ul>
+                    <li>Full Stack Web Development</li>
+                    <li>Algorithms</li>
+                    <li>Agile Development Methods</li>
+                    <li>Database Fundementals</li>
+                </ul>
+            </div>
+        </section>
     </main>
 </body>
 </html>
