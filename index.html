@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <style>
+        /* Global styles */
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            height: 100vh;
+            padding: 1rem;
+            color: white;
+        }
+        main {
+            display: flex;
+            height: 100%;
+            width: 950px;
+            padding: 2rem;
+            justify-self: center;
+            gap: 1rem;
+            background-color: rgb(58, 58, 58);
+        }
+        a {
+            color: white;
+            text-transform: none;
+        }
+        
+        /* Header Section */
+        #full-name-text {
+            text-align: center;
+            font-style: italic;
+        }
+        header {
+            width: 100%;
+            height: min-content;
+        }
+        header section {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+        }
+        .header-sub-container {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+    </style>
+
+</head>
+<body>
+    <main>
+        <header>
+            <h1 id="full-name-text">Ahmed Ihsan</h1>
+            <section>
+                <div class="header-sub-container">
+                    <p>Ihsan.Ahmed@student.greenriver.edu</p>
+                    <p>(206)537-5152</p>
+                </div>
+                <div class="header-sub-container">
+                    <a href="https://www.linkedin.com/in/ahmed-ihsan/" target="_blank">www.linkedin.com/in/ahmed-ihsan</a>
+                    <a href="https://github.com/AhmedIhsan123" target="_blank">github.com/AhmedIhsan123</a>
+                </div>
+            </section>
+        </header>
+    </main>
+</body>
+</html>
