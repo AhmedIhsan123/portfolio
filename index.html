@@ -20,6 +20,7 @@
         }
         main {
             display: flex;
+            flex-direction: column;
             height: 100%;
             width: 950px;
             padding: 2rem;
@@ -37,8 +38,14 @@
             text-align: center;
             font-style: italic;
         }
+        #profile-img {
+            border-radius: 100%;
+        }
         header {
+            display: flex;
+            flex-direction: column;
             width: 100%;
+            gap: 0.5rem;
             height: min-content;
         }
         header section {
@@ -67,12 +74,17 @@
                     <p>Ihsan.Ahmed@student.greenriver.edu</p>
                     <p>(206)537-5152</p>
                 </div>
+                <img id="profile-img" src="/portfolio/profile.png" width="50px">
                 <div class="header-sub-container right-text">
                     <a href="https://www.linkedin.com/in/ahmed-ihsan/" target="_blank">www.linkedin.com/in/ahmed-ihsan</a>
                     <a href="https://github.com/AhmedIhsan123" target="_blank">github.com/AhmedIhsan123</a>
                 </div>
             </section>
         </header>
+        <secton id="summary-container">
+            <h2>Summary</h2>
+            <p>I am aspiring software developer at Green River College with a strong interest in engineering, software development, and leadership. Experienced in team-based projects, video game development, graphic design, and project coordination.</p>
+        </secton>
     </main>
 </body>
 </html>
