@@ -1,127 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-
-    <style>
-        /* Global styles */
-        * {
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: 'Times New Roman', Times, serif;
-            height: 100vh;
-            padding: 1rem;
-            color: white;
-        }
-        main {
-            display: flex;
-            flex-direction: column;
-            height: 100%;
-            width: 950px;
-            padding: 2rem;
-            justify-self: center;
-            gap: 1rem;
-            background-color: rgb(58, 58, 58);
-        }
-        a {
-            color: white;
-            text-transform: none;
-        }
-
-        /* Classes */
-        .header-sub-container {
-            display: flex;
-            flex-direction: column;
-            gap: 0.25rem;
-        }
-        .right-text {
-            text-align: right;
-        }
-        .date-split {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-        }
-
-        
-        /* Header Section */
-        #full-name-text {
-            text-align: center;
-            font-style: italic;
-        }
-        #profile-img {
-            border-radius: 100%;
-        }
-        header {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            gap: 0.5rem;
-            height: min-content;
-        }
-        header section {
-            width: 100%;
-        }
-
-        /* Education Section */
-        #coursework-container {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-        }
-
-
-    </style>
-
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Ahmed Ihsan</title>
+  </head>
+  <body>
     <main>
-        <header>
-            <h1 id="full-name-text">Ahmed Ihsan</h1>
-            <section class="date-split">
-                <div class="header-sub-container">
-                    <p>Ihsan.Ahmed@student.greenriver.edu</p>
-                    <p>(206)537-5152</p>
-                </div>
-                <img id="profile-img" src="/portfolio/profile.png" width="50px">
-                <div class="header-sub-container right-text">
-                    <a href="https://www.linkedin.com/in/ahmed-ihsan/" target="_blank">www.linkedin.com/in/ahmed-ihsan</a>
-                    <a href="https://github.com/AhmedIhsan123" target="_blank">github.com/AhmedIhsan123</a>
-                </div>
-            </section>
-        </header>
-        <secton id="summary-container">
-            <h2>Summary</h2>
-            <p>I am aspiring software developer at Green River College with a strong interest in engineering, software development, and leadership. Experienced in team-based projects, video game development, graphic design, and project coordination.</p>
-        </secton>
-        <section id="education-container">
-            <h2>Education</h2>
-            <div class="date-split">
-                <p><strong>Green River College</strong> - Auburn, WA</p>
-                <p>Sept. 2025 to Present</p>
-            </div>
-            <p>Bachelors, Information Technology-Software Development (3.8 GPA)</p>
-            <p>Relevent Coursework:</p>
-
-            <div id="coursework-container">
-                <ul>
-                    <li>Object-Oriented Programming</li>
-                    <li>Data Structures</li>
-                    <li>Systems Programming (bitwise operations, exceptions, threads, networking)</li>
-                </ul>
-                <ul>
-                    <li>Full Stack Web Development</li>
-                    <li>Algorithms</li>
-                    <li>Agile Development Methods</li>
-                    <li>Database Fundementals</li>
-                </ul>
-            </div>
+      <!-- Header -->
+      <header>
+        <h1>Ahmed Ihsan</h1>
+        <section>
+          <div>
+            <p>Ihsan.Ahmed@student.greenriver.edu</p>
+            <p>(206) 537-5152</p>
+          </div>
+          <img src="profile.png" alt="Profile Image" width="50" />
+          <div>
+            <a href="https://www.linkedin.com/in/ahmed-ihsan/" target="_blank">
+              linkedin.com/in/ahmed-ihsan
+            </a>
+            <a href="https://github.com/AhmedIhsan123" target="_blank">
+              github.com/AhmedIhsan123
+            </a>
+          </div>
         </section>
+      </header>
+
+      <!-- Summary -->
+      <section id="summary">
+        <h2>Summary</h2>
+        <p>
+          I am an aspiring software developer at Green River College with a
+          strong interest in engineering, software development, and leadership.
+          Experienced in team-based projects, video game development, graphic
+          design, and project coordination.
+        </p>
+      </section>
+      <hr />
+
+      <!-- Education -->
+      <section id="education">
+        <h2>Education</h2>
+        <div>
+          <p><strong>Green River College</strong> - Auburn, WA</p>
+          <p>Sept. 2025 - Present</p>
+        </div>
+        <p>
+          Bachelors, Information Technology - Software Development (3.8 GPA)
+        </p>
+        <p>Relevant Coursework:</p>
+
+        <div id="coursework">
+          <ul>
+            <li>Object-Oriented Programming</li>
+            <li>Data Structures</li>
+            <li>
+              Systems Programming (bitwise operations, exceptions, threads,
+              networking)
+            </li>
+          </ul>
+          <ul>
+            <li>Full Stack Web Development</li>
+            <li>Algorithms</li>
+            <li>Agile Development Methods</li>
+            <li>Database Fundamentals</li>
+          </ul>
+        </div>
+      </section>
+      <hr />
+
+      <!-- Work Experience -->
+      <section id="work-experience">
+        <h2>Work Experience</h2>
+        <div>
+          <p><strong>IT Student Assistant</strong>, Green River College</p>
+          <p>May 2025 - Present</p>
+        </div>
+        <ul>
+          <li>
+            Provided first-level technical support to students and staff,
+            assisting with account setup, password resets, software access, and
+            troubleshooting common technical issues while maintaining a friendly
+            and professional manner.
+          </li>
+          <li>
+            Monitored and maintained lab computers and printers, ensuring
+            optimal performance and minimal downtime.
+          </li>
+          <li>
+            Performed remote troubleshooting using Zoom, effectively resolving
+            technical issues in virtual environments.
+          </li>
+          <li>
+            Collaborated with Green River’s IT team setting up computers for
+            campus, including flashing computers, wiring, time management, and
+            teamwork.
+          </li>
+        </ul>
+      </section>
+      <hr />
+
+      <!-- Project Work -->
+      <section id="projects">
+        <h2>Project Work</h2>
+        <div>
+          <p><strong>Software Developer & Data Analyst</strong>, Statmando</p>
+          <p>Apr 2025 - Jun 2025</p>
+        </div>
+        <ul>
+          <li>
+            Contributed to a small group of developers delivering a minimum
+            viable product for our client.
+          </li>
+          <li>
+            Developed an efficient working environment to accelerate development
+            time.
+          </li>
+        </ul>
+
+        <div>
+          <p>
+            <strong>Lead Developer & Project Manager</strong>, Escape Room
+            Project (Video Game)
+          </p>
+          <p>Apr 2024</p>
+        </div>
+        <ul>
+          <li>
+            Directed and coordinated a small development team during a week-long
+            game jam competition.
+          </li>
+          <li>
+            Oversaw project planning and task management using Agile
+            methodologies with tools like Trello and Git.
+          </li>
+          <li>
+            Released a playable prototype under tight deadlines, meeting all
+            core objectives of the jam.
+          </li>
+        </ul>
+      </section>
+      <hr />
+
+      <!-- Skills & Certifications -->
+      <section id="skills">
+        <h2>Skills and Certifications</h2>
+        <div id="skills-certs">
+          <ul>
+            <li><strong>Languages:</strong> Java, SQL, PHP, JavaScript</li>
+            <li><strong>Web:</strong> HTML/CSS, jQuery</li>
+            <li><strong>Agile:</strong> Pair programming, Scrum, Sprints</li>
+            <li>
+              <strong>Back-End Web Development:</strong> cPanel, phpMyAdmin
+            </li>
+            <li>
+              <strong>Project Management:</strong> Team leadership, sprint
+              coordination
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <strong>Tools:</strong> Git, IntelliJ, Visual Studio, Unreal
+              Engine
+            </li>
+            <li>
+              <strong>Certification:</strong> Build Responsive Real-World
+              Websites with HTML and CSS (Udemy)
+            </li>
+            <li>
+              <strong>Certification:</strong> Introduction to SQL Server
+              (DataCamp)
+            </li>
+            <li>
+              <strong>Certification:</strong> The Complete JavaScript Course:
+              From Zero to Expert (Udemy)
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
-</body>
+  </body>
 </html>
