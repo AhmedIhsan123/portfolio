@@ -1,185 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio - Ahmed Ihsan</title>
-    <link rel="icon" href="profile.png" />
-  </head>
-  <body>
-    <main>
-      <!-- Header -->
-      <header>
-        <h1>Ahmed Ihsan</h1>
-        <section>
-          <div>
-            <p>Ihsan.Ahmed@student.greenriver.edu</p>
-            <p>(206) 537-5152</p>
-          </div>
-          <img src="profile.png" alt="Profile Image" width="50" />
-          <div>
-            <a href="https://www.linkedin.com/in/ahmed-ihsan/" target="_blank">
-              linkedin.com/in/ahmed-ihsan
-            </a>
-            <a href="https://github.com/AhmedIhsan123" target="_blank">
-              github.com/AhmedIhsan123
-            </a>
-          </div>
-        </section>
-      </header>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio - Ahmed Ihsan</title>
+		<link rel="icon" href="Images/profile.png" />
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<main>
+			<!-- Header -->
+			<header>
+				<h1>Ahmed Ihsan</h1>
+				<section id="contact-section">
+					<div>
+						<p>Ihsan.Ahmed@student.greenriver.edu</p>
+						<p>(206) 537-5152</p>
+					</div>
+					<img src="Images/profile.png" alt="Profile Image" id="profile-img" />
+					<div id="profile-links">
+						<a href="https://www.linkedin.com/in/ahmed-ihsan/" target="_blank">
+							LinkedIn
+						</a>
+						<a href="https://github.com/AhmedIhsan123" target="_blank">
+							GitHub
+						</a>
+					</div>
+				</section>
+			</header>
 
-      <!-- Summary -->
-      <section id="summary">
-        <h2>Summary</h2>
-        <p>
-          I am an aspiring software developer at Green River College with a
-          strong interest in engineering, software development, and leadership.
-          Experienced in team-based projects, video game development, graphic
-          design, and project coordination.
-        </p>
-      </section>
-      <hr />
+			<!-- Summary -->
+			<section id="summary-section">
+				<h2 class="section-title">Summary</h2>
+				<div class="card-container">
+					<p class="card">
+						I am an aspiring software developer at Green River College with a
+						strong interest in engineering, software development, and
+						leadership. Experienced in team-based projects, video game
+						development, graphic design, and project coordination.
+					</p>
+				</div>
+			</section>
 
-      <!-- Education -->
-      <section id="education">
-        <h2>Education</h2>
-        <div>
-          <p><strong>Green River College</strong> - Auburn, WA</p>
-          <p>Sept. 2025 - Present</p>
-        </div>
-        <p>
-          Bachelors, Information Technology - Software Development (3.8 GPA)
-        </p>
-        <p>Relevant Coursework:</p>
+			<!-- Education -->
+			<section id="education-section">
+				<h2 class="section-title">Education</h2>
+				<div class="card-container">
+					<div class="education-card card">
+						<p class="date">Sept. 2025 - Present</p>
+						<div>
+							<p><strong>Green River College</strong> - Auburn, WA</p>
+						</div>
+						<p>Bachelors, Information Technology - Software Development</p>
+						<p>GPA: 3.86</p>
+					</div>
+					<div class="education-card card">
+						<p class="date">Sept. 2023 - June 2025</p>
+						<div>
+							<p><strong>Green River College</strong> - Auburn, WA</p>
+						</div>
+						<p>Associates, Data Analysis and Software Development</p>
+						<p>GPA: 3.80</p>
+					</div>
+				</div>
+			</section>
 
-        <div id="coursework">
-          <ul>
-            <li>Object-Oriented Programming</li>
-            <li>Data Structures</li>
-            <li>
-              Systems Programming (bitwise operations, exceptions, threads,
-              networking)
-            </li>
-          </ul>
-          <ul>
-            <li>Full Stack Web Development</li>
-            <li>Algorithms</li>
-            <li>Agile Development Methods</li>
-            <li>Database Fundamentals</li>
-          </ul>
-        </div>
-      </section>
-      <hr />
+			<!-- Work Experience -->
+			<section id="work-experience-section">
+				<h2 class="section-title">Work Experience</h2>
+				<div class="card-container">
+					<!-- IT student helpdesk job -->
+					<div class="work-experience-card card">
+						<p class="date">May 2025 - Present</p>
+						<p><strong>IT Student Assistant</strong>, Green River College</p>
+						<ul>
+							<li>
+								Provided first-level technical support to students and staff,
+								assisting with account setup, password resets, software access,
+								and troubleshooting common technical issues while maintaining a
+								friendly and professional manner.
+							</li>
+							<li>
+								Monitored and maintained lab computers and printers, ensuring
+								optimal performance and minimal downtime.
+							</li>
+							<li>
+								Performed remote troubleshooting using Zoom, effectively
+								resolving technical issues in virtual environments.
+							</li>
+							<li>
+								Collaborated with Green River’s IT team setting up computers for
+								campus, including flashing computers, wiring, time management,
+								and teamwork.
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
 
-      <!-- Work Experience -->
-      <section id="work-experience">
-        <h2>Work Experience</h2>
-        <div>
-          <p><strong>IT Student Assistant</strong>, Green River College</p>
-          <p>May 2025 - Present</p>
-        </div>
-        <ul>
-          <li>
-            Provided first-level technical support to students and staff,
-            assisting with account setup, password resets, software access, and
-            troubleshooting common technical issues while maintaining a friendly
-            and professional manner.
-          </li>
-          <li>
-            Monitored and maintained lab computers and printers, ensuring
-            optimal performance and minimal downtime.
-          </li>
-          <li>
-            Performed remote troubleshooting using Zoom, effectively resolving
-            technical issues in virtual environments.
-          </li>
-          <li>
-            Collaborated with Green River’s IT team setting up computers for
-            campus, including flashing computers, wiring, time management, and
-            teamwork.
-          </li>
-        </ul>
-      </section>
-      <hr />
+			<!-- Project Work -->
+			<section id="projects">
+				<h2 class="section-title">Project Work</h2>
+				<div class="card-container">
+					<div class="card">
+						<p class="date">April 2025 - June 2025</p>
+						<p><strong>Software Developer & Data Analyst</strong>, Statmando</p>
+						<ul>
+							<li>
+								Contributed to a small group of developers delivering a minimum
+								viable product for our client.
+							</li>
+							<li>
+								Developed an efficient working environment to accelerate
+								development time.
+							</li>
+						</ul>
+					</div>
+					<div class="card">
+						<p class="date">April 2024 - April 2024</p>
+						<p>
+							<strong>Lead Developer & Project Manager</strong>, Escape Room
+							Project (Video Game)
+						</p>
+						<ul>
+							<li>
+								Directed and coordinated a small development team during a
+								week-long game jam competition.
+							</li>
+							<li>
+								Oversaw project planning and task management using Agile
+								methodologies with tools like Trello and Git.
+							</li>
+							<li>
+								Released a playable prototype under tight deadlines, meeting all
+								core objectives of the jam.
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
 
-      <!-- Project Work -->
-      <section id="projects">
-        <h2>Project Work</h2>
-        <div>
-          <p><strong>Software Developer & Data Analyst</strong>, Statmando</p>
-          <p>Apr 2025 - Jun 2025</p>
-        </div>
-        <ul>
-          <li>
-            Contributed to a small group of developers delivering a minimum
-            viable product for our client.
-          </li>
-          <li>
-            Developed an efficient working environment to accelerate development
-            time.
-          </li>
-        </ul>
-
-        <div>
-          <p>
-            <strong>Lead Developer & Project Manager</strong>, Escape Room
-            Project (Video Game)
-          </p>
-          <p>Apr 2024</p>
-        </div>
-        <ul>
-          <li>
-            Directed and coordinated a small development team during a week-long
-            game jam competition.
-          </li>
-          <li>
-            Oversaw project planning and task management using Agile
-            methodologies with tools like Trello and Git.
-          </li>
-          <li>
-            Released a playable prototype under tight deadlines, meeting all
-            core objectives of the jam.
-          </li>
-        </ul>
-      </section>
-      <hr />
-
-      <!-- Skills & Certifications -->
-      <section id="skills">
-        <h2>Skills and Certifications</h2>
-        <div id="skills-certs">
-          <ul>
-            <li><strong>Languages:</strong> Java, SQL, PHP, JavaScript</li>
-            <li><strong>Web:</strong> HTML/CSS, jQuery</li>
-            <li><strong>Agile:</strong> Pair programming, Scrum, Sprints</li>
-            <li>
-              <strong>Back-End Web Development:</strong> cPanel, phpMyAdmin
-            </li>
-            <li>
-              <strong>Project Management:</strong> Team leadership, sprint
-              coordination
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <strong>Tools:</strong> Git, IntelliJ, Visual Studio, Unreal
-              Engine
-            </li>
-            <li>
-              <strong>Certification:</strong> Build Responsive Real-World
-              Websites with HTML and CSS (Udemy)
-            </li>
-            <li>
-              <strong>Certification:</strong> Introduction to SQL Server
-              (DataCamp)
-            </li>
-            <li>
-              <strong>Certification:</strong> The Complete JavaScript Course:
-              From Zero to Expert (Udemy)
-            </li>
-          </ul>
-        </div>
-      </section>
-    </main>
-  </body>
+			<!-- Skills -->
+			<section id="skills-section">
+				<h2 class="section-title">Skills</h2>
+				<div id="skills-container" class="card-container">
+					<p>Java</p>
+					<p>SQL</p>
+					<p>PHP</p>
+					<p>JavaScript</p>
+					<p>HTML/CSS</p>
+					<p>jQuery</p>
+					<p>Scrum</p>
+					<p>Agile Development</p>
+					<p>Full-Stack Web Development</p>
+					<p>cPanel</p>
+					<p>phpMyAdmin</p>
+					<p>Project Management</p>
+					<p>Git/GitHub</p>
+					<p>IntelliJ</p>
+					<p>VSCode</p>
+					<p>Unreal Engine 5</p>
+				</div>
+			</section>
+		</main>
+	</body>
 </html>
